@@ -1,0 +1,114 @@
+body
+    padding-bottom: 100px
+    min-height: 100%
+    display: flex
+    flex-direction: column
+.main
+    min-height: 500px
+    display: flex
+    // flex-direction: column
+    flex: 1 0 auto
+    font-family: lato, sans-serif
+    font-size: 0.9 em
+    color: #222
+    background-color: white
+
+aside
+    background-color: #f2f2f2
+    display: flex
+    flex-direction: column
+    flex: 0 0 40px
+    justify-content:  space-around
+    flex-shrink: 0.9em
+
+
+.content
+    display: flex
+    flex: 1 1 auto
+    flex-direction: column
+
+.head
+    display: flex
+    flex: 0 0 280px
+    padding: 40px
+    background-color: #4e4e4e
+    &_content
+        display: flex
+        flex-direction: column
+        font-size: 300
+        color: white
+        padding-left: 50px
+    div
+        &:nth-child(1)
+            margin-bottom: auto
+            p
+                &:nth-child(1)
+                    font-size: 1.8em
+                    margin-bottom: 10px
+                &:nth-child(2)
+                    font-size: 0.9em
+                &:nth-child(3)
+                    font-size: 0.9em
+                    
+        &:nth-child(2)
+            margin-top: auto
+            i
+                font-size: 0.9em
+                padding: 0 0.7em
+                font-weight: 300
+            span
+                font-size: 0.9em
+                padding: 0 0.7em
+                font-weight: 300
+                margin-right: 20px
+
+.playlist
+    list-style: none
+    flex: 1 0 auto
+    padding: 5px 10px 0px  
+    li
+        display: flex
+        padding: 25px 20px
+        min-height: 50px  
+        p
+            flex: 1 0 25%
+            transform: translateY(50%)
+        &:nth-child(2n)
+            background-color: #f2f2f2
+        span
+            border: 1px solid black
+            padding: 3px
+
+   
+footer
+    position: fixed
+    bottom: 0
+    width: 100%
+    height: 100px
+    display: flex
+    flex: 0 0 90px
+    padding: 10px
+    color: #fff
+    background-color: rgba(61, 100, 158, 1)
+.treck
+    display: flex
+    flex: 1 0 auto
+    &_picture 
+        width: 80px
+        height: 80px
+        img
+            width: 100%
+            height: 100%
+    &_name
+        padding: 10px 5px
+        p 
+            line-height: 10px     
+.tools
+    display: flex
+    flex: 1.1 0 auto
+    padding-right: 10px
+    justify-content: space-between
+    align-items: center
+
+    
+        
